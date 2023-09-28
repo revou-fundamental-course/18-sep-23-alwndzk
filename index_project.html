@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU E-Grocery</title>
+    <link href="stail.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="page-title"><a>E-Grocery</a></div>
+        <div class="nav-right">
+            <a href="#title" class="nav-item">Home</a>
+            <a href="#package" class="nav-item">Our Package</a>
+            <a href="#call" class="nav-item">Call Us</a>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div id="konten">
+            <article id="title" class="card">
+                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+                <p>Everyday with best ingredient</p>
+                <figure>
+                    <image src="forrevo.jpg" class="image active" alt="slider image">
+                        <image src="forrevoo.jpg" class="image" alt="slider image">
+                            <figcaption>"Setiap hari beli sayur buah yang fresh di sini"</figcaption>
+                </figure>
+            </article>
+            <article id="package" class="card">
+                <ol>
+                    <li>Kami menyediakan berbagai macam sayur dan buah yang segar dengan harga
+                        terjangkau.</li>
+                    <hr>
+                    <li>Jika Anda berminat untuk membeli, isi form yang tersedia pada halaman website kami.</li>
+                    <hr>
+                    <li>Anda bisa menghubungi kami kapan pun jika Anda memiliki pertanyaan terkait produk kami.</li>
+                    <hr>
+                </ol>
+            </article>
+        </div>
+        <aside>
+            <div id="call" class="content-right">
+                <form name="contact-form" class="profile card">
+                    <label for="your-name">Your Name :</label>
+                    <br>
+                    <input id="your-name" type="text" name="your-name" placeholder="First and last name">
+                    <p id="name-error" class="error-message"></p>
+
+                    <label for="email">Email Address :</label>
+                    <br>
+                    <input type="email" name="email" placeholder="example@gmail.com">
+                    <p id="email-error" class="error-message"></p>
+
+                    <label for="interest">What are you interested in?</label>
+                    <br>
+                    <select type="select" name="interest">
+                        <option value="">--SELECT--</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="badminton">Badminton</option>
+                    </select>
+                    <br>
+                    <button id="button" type="submit" class="button">SEND</button>
+                    <p id="interest-error" class="error-message"></p>
+                </form>
+            </div>
+        </aside>
+        <script src="script.js"></script>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
